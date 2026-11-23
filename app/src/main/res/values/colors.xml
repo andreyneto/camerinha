@@ -1,0 +1,11 @@
+<resources>
+    <color name="ic_launcher_background">#FAFAFA</color>
+
+    <!-- Mirrors of the Compose palette (Theme.kt) for Views and XML themes. -->
+    <color name="camerinha_primary">#FF5A1F</color>
+    <color name="camerinha_background">#000000</color>
+    <color name="camerinha_on_surface">#F9DCD4</color>
+    <color name="camerinha_on_surface_variant">#DFC0B6</color>
+    <color name="camerinha_container_high">#362621</color>
+    <color name="camerinha_container_highest">#42312C</color>
+</resources>

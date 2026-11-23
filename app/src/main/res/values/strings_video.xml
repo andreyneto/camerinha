@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="retrying">Trying again…</string>
+    <string name="hint_switch">Left/Right: switch camera</string>
+    <string name="hint_float">OK: floating window</string>
+    <string name="hint_grid">Back: all cameras</string>
+    <string name="position_short">%1$d / %2$d</string>
+    <string name="camera_unreachable">Camera unreachable. Check that it is on and on this network.</string>
+    <string name="camera_timeout">The camera stopped answering.</string>
+</resources>

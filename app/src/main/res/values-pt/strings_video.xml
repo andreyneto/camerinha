@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="retrying">Tentando de novo…</string>
+    <string name="hint_switch">Esquerda/direita: trocar câmera</string>
+    <string name="hint_float">OK: janela flutuante</string>
+    <string name="hint_grid">Voltar: todas as câmeras</string>
+    <string name="position_short">%1$d / %2$d</string>
+    <string name="camera_unreachable">Câmera inacessível. Confira se está ligada e nesta rede.</string>
+    <string name="camera_timeout">A câmera parou de responder.</string>
+</resources>

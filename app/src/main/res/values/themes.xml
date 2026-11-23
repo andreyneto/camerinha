@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Activity theme: black behind the video before Compose draws, brand orange accent for framework widgets. -->
+    <style name="Theme.Camerinha" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/camerinha_background</item>
+        <item name="android:colorBackground">@color/camerinha_background</item>
+        <item name="android:colorPrimary">@color/camerinha_primary</item>
+        <item name="android:colorAccent">@color/camerinha_primary</item>
+    </style>
+
+    <!-- Native text prompt (promptText): tonal 28dp window, orange buttons and cursor, the app's font. -->
+    <style name="ThemeOverlay.Camerinha.Dialog" parent="@android:style/Theme.Material.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/dialog_background</item>
+        <item name="android:colorBackground">@color/camerinha_container_high</item>
+        <item name="android:colorAccent">@color/camerinha_primary</item>
+        <item name="android:colorControlActivated">@color/camerinha_primary</item>
+        <item name="android:textColorPrimary">@color/camerinha_on_surface</item>
+        <item name="android:textColorSecondary">@color/camerinha_on_surface_variant</item>
+        <item name="android:fontFamily">@font/google_sans_flex</item>
+    </style>
+
+    <!-- Native single-choice list (chooseOne): the focused row gets a clearly visible orange wash on D-pad. -->
+    <style name="ThemeOverlay.Camerinha.Dialog.List" parent="ThemeOverlay.Camerinha.Dialog">
+        <item name="android:colorControlHighlight">#66FF5A1F</item>
+    </style>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Text prompt field: tonal (containerHighest) 20dp pill, primary outline while focused. -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="20dp" />
+            <solid android:color="@color/camerinha_container_highest" />
+            <stroke android:width="2dp" android:color="@color/camerinha_primary" />
+            <padding android:left="20dp" android:top="14dp" android:right="20dp" android:bottom="14dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="20dp" />
+            <solid android:color="@color/camerinha_container_highest" />
+            <padding android:left="20dp" android:top="14dp" android:right="20dp" android:bottom="14dp" />
+        </shape>
+    </item>
+</selector>

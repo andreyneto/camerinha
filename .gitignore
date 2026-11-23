@@ -1,0 +1,14 @@
+*.iml
+.gradle/
+.kotlin/
+.idea/
+local.properties
+build/
+*.apk
+*.aab
+*.jks
+*.keystore
+.DS_Store
+
+# Third-party artwork: its license forbids redistribution (see README)
+art/icon.png
